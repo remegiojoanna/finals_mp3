@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fearless</title>
+
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        /* Header Container Styling */
+        .header-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .header-container a {
+            font-size: 28px; /* Increased font size */
+            font-weight: bold;
+            color: #636b2f;
+            text-decoration: none;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #636b2f;
+        }
+
+        /* Video Container Styling with Border and Olive Green Background */
+        .video-container {
+            text-align: center;
+            margin: 30px auto;
+            width: 90%; /* Set the width of the container */
+            max-width: 1000px; /* Maximum width for larger screens */
+            border: 5px solid white; /* Border around the video */
+            border-radius: 10px; /* Rounded corners for the border */
+            padding: 20px; /* Padding inside the container */
+            background-color: #636b2f; /* Olive green background */
+            box-sizing: border-box; /* Ensures padding is included in the element's total width/height */
+        }
+
+        .video-container video {
+            width: 100%; /* Makes the video width fill the container */
+            height: 600px; /* Set a fixed height for the video */
+            object-fit: cover; /* Ensures the video fills the container without distortion */
+            border-radius: 5px; /* Optional: rounded corners for the video */
+        }
+
+        /* Video Title and Singer Container */
+        .video-title-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .video-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 15px;
+            color: #636b2f; /* White text for the title */
+        }
+
+        .video-singer {
+            font-size: 20px;
+            color: #636b2f; /* Lighter gray for the singer's name */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Container -->
+<div class="header-container">
+    <a href="index.html" class="album-link">Fearless</a> <!-- This is now clickable and leads back to albums -->
+</div>
+
+<!-- Video Section with Border and Olive Green Background -->
+<div class="video-container">
+    <video controls>
+        <source src="Taylor Swift - Fearless.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- Video Title and Singer Container -->
+<div class="video-title-container">
+    <div class="video-title">Taylor Swift - Fearless</div>
+</div>
+
+</body>
+</html>
